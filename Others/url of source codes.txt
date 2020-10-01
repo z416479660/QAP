@@ -1,0 +1,10 @@
+Palubeckis G. Single row facility layout using multi-start simulated annealing[J]. Computers & Industrial Engineering, 2017, 103: 1-16.
+https://www.personalas.ktu.lt/~ginpalu/srflp.html
+
+Palubeckis G. A variable neighborhood search and simulated annealing hybrid for the profile minimization problem[J]. Computers & Operations Research, 2017, 87: 83-97.
+https://www.personalas.ktu.lt/~ginpalu/pmp.html
+
+El Yafrani M, Ahiod B. Efficiently solving the Traveling Thief Problem using hill climbing and simulated annealing[J]. Information Sciences, 2018, 432: 231-244.
+https://github.com/yafrani/ttplab/tree/dist/src/main/java/solver
+
+http://www.roadef.org/challenge/2018/en/

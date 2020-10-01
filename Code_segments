@@ -1,0 +1,18 @@
+/**
+* Compute the cost difference if elements i and j are swapped.
+* The value of delta[i][j] is supposed to be known before the swap of elements r and s
+*/
+public int difference(int[][] delta, int i, int j, int r, int s) {
+    int d = delta;
+    d += distance[i][r]*flowData[match[i]][match[r]];
+    d += distance[i][s]*flowData[match[i]][match[s]];
+    d += distance[j][r]*flowData[match[j]][match[r]];
+    d += distance[j][s]*flowData[match[j]][match[s]];
+    
+    d -= distance[i][r]*flowData[match[i]][match[s]];
+    d -= distance[i][s]*flowData[match[i]][match[r]];
+    d -= distance[j][r]*flowData[match[j]][match[s]];
+    d -= distance[j][s]*flowData[match[j]][match[r]];
+    
+    return d;
+}
